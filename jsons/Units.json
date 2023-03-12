@@ -1,0 +1,80 @@
+[
+	{
+		"name": "Great Artist",
+		"unitType": "Civilian",
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"Can instantly construct a [Landmark] improvement <[2] times> <after which this unit is consumed>",
+			"Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Scientist",
+		"unitType": "Civilian",
+		"uniques": ["Can hurry technology research",
+			"Can instantly construct a [Academy] improvement <[2] times> <after which this unit is consumed>",
+			"Great Person - [Science]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Can instantly construct a [Customs house] improvement <[2] times> <after which this unit is consumed>",
+			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": ["Can speed up construction of a building",
+			"Can instantly construct a [Manufactory] improvement <[2] times> <after which this unit is consumed>",
+			"Great Person - [Production]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Prophet",
+		"unitType": "Civilian",
+		"uniques": ["Can instantly construct a [Holy site] improvement <once> <if it hasn't used other actions yet>",
+			"Can instantly construct a [Holy site] improvement <[1] additional times> <if it hasn't used other actions yet>",
+			"Can [Spread Religion] [4] times",
+			"Removes other religions when spreading religion",
+			"May found a religion",
+			"May enhance a religion",
+			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
+			"Unbuildable", "Religious Unit", "Hidden when religion is disabled",
+			"Takes your religion over the one in their birth city"],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Can instantly construct a [Citadel] improvement <[2] times> <after which this unit is consumed>",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Khan",
+		"unitType": "Civilian",
+		"uniqueTo": "Mongolia",
+		"replaces": "Great General",
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"All adjacent units heal [+15] HP when healing", "[+15] HP when healing",
+			"Can instantly construct a [Citadel] improvement <[2] times> <after which this unit is consumed>",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 5
+	},
+	{
+		"name": "Merchant of Venice",
+		"unitType": "Civilian",
+		"uniqueTo": "Venice",
+		"replaces": "Great Merchant",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [90] Influence",
+			"Can instantly construct a [Customs house] improvement <[2] times> <after which this unit is consumed>",
+			"Double movement in [Coast]", "Great Person - [Gold]", "Unbuildable", "Uncapturable"]
+		"movement": 2
+	},
+]
