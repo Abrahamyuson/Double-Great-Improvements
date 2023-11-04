@@ -35,6 +35,7 @@
 		"name": "Great Prophet",
 		"unitType": "Civilian",
 		"uniques": ["Can instantly construct a [Holy site] improvement <[2] times> <if it hasn't used other actions yet> <after which this unit is consumed>",
+			"Can instantly construct a [Farmyard] improvement <by consuming this unit>",
 			"Can [Spread Religion] [4] times",
 			"Removes other religions when spreading religion",
 			"May found a religion",
